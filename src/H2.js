@@ -9,7 +9,7 @@ const H2 = () => {
         <div className="himage">
             <img
                 src={ntp}
-                alt="Feature image"
+                alt="Feature"
                 class="fimage"
             />
             <div class="hpcontainer">

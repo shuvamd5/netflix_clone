@@ -12,7 +12,7 @@ const H1 = () => {
       <div className="himage">
         <img
           src={ntv}
-          alt="Feature image"
+          alt="Feature"
           className="fimage"
         />
         <div className="fbgvideocontainer">

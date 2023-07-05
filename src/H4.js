@@ -7,6 +7,7 @@ const H4 = () => {
       <div class="himage">
         <img
           src={kd}
+          alt='kid'
           class="fimage"
         />
       </div>

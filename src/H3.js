@@ -15,6 +15,7 @@ const H3 = () => {
       <div class="himage feature3imagecontainer">
         <img
           src={ntvp}
+          alt='feature'
           class="fimage feature3image"
         />
         <div
