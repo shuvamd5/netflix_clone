@@ -133,7 +133,7 @@ const FAQ = () => {
         </h3>
         <div className="emailcontainer emailFAQcontainer">
           <div className="formFAQcontainer">
-            <input type="email" className="einput" placeholder=" " />
+            <input type="email" className="einput" placeholder=" " readOnly/>
             <label className="elabel eFAQlabel">Email address</label>
           </div>
           <button className="btn">

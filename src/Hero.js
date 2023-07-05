@@ -24,7 +24,7 @@ const Hero = () => {
 
             <div className="emailcontainer">
                 <div className="formcontainer">
-                    <input type="email" name="email" className="einput" placeholder='' />
+                    <input type="email" name="email" className="einput" placeholder='' readOnly/>
                     <label htmlFor="email" className='elabel'>Email address</label>
                 </div>
                 <button className="btn">
