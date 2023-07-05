@@ -141,6 +141,7 @@ body {
   left: 3.5%;
   padding-left: 7px;
   color: white;
+  caret-color: white;
 }
 .elabel {
   color: black;
@@ -500,25 +501,57 @@ footer {
   .blackscreen {
     height: 100vh;
   }
-  .herotxt {
-    top: 40%;
-    left: 30%;
-    transform: translate(-20%, -20%);
-  }
   .herotitle {
-    font-size: 3rem;
+    font-weight: 800;
+    font-size: 2rem;
   }
-  .subtitle,
-  .sub {
-    font-size: 1.3rem;
+  
+  .subtitle {
+    font-weight: 400;
+    font-size: 1.2rem;
   }
 
+  .sub {
+    font-weight: 400;
+    font-size: 1.1rem;
+    margin: 0 50px;
+  }
+  .formcontainer,
+  .formFAQcontainer {
+    height: 30px;
+  }
+  .elabel {
+  font-size: 0.8em;
+  }
+  .einput:focus + .elabel {
+    top: 0.5rem;
+    font-size: 0.6em;
+  }
+  .btn {
+    height: 30px;
+  }
+
+  .btntxt {
+    font-size: 0.8em;
+    letter-spacing: 1px;
+    font-weight: 700;
+  }
+  
+  .btnsign {
+    font-size: 0.7em;
+  }
   .h {
     padding: 4rem;
+    flex-direction: column;
+    justify-content: center;
   }
 
-  .htitle {
-    font-size: 35px;
+  .hdetails {
+    width: 100%;
+    justify-content: center;
+  }
+  .himage {
+    width: 100%;
   }
 
   .hsub {
@@ -531,33 +564,6 @@ footer {
   .hpostercontainer {
     width: 15%;
   }
-  .downloadgifcontainer {
-    width: 3rem;
-    height: 3rem;
-  }
 
-  .hposterdetails > h4 {
-    font-size: 18px;
-  }
-  .hposterdetails > h6 {
-    font-size: 14px;
-  }
-  .FAQtitle {
-    font-size: 20px;
-  }
-  .FAQheading {
-    font-size: 38px;
-    font-weight: 500;
-    letter-spacing: 1px;
-  }
-  .FAQlist {
-    padding: 1rem 5rem;
-  }
-  .FAQgetstartedemail {
-    width: 75%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    transform: translateX(15%);
-  }
+  
 }
