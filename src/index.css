@@ -88,6 +88,7 @@ body {
 .herotxtcontainer{
   position: absolute;
   width: 100%;
+  top: 40%;
 }
 .herotxt {
   text-align: center;
@@ -493,7 +494,7 @@ footer {
   margin-bottom: 10px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 912px) {
   .hicontainer {
     height: 100vh;
   }
@@ -515,6 +516,7 @@ footer {
     font-size: 1.1rem;
     margin: 0 50px;
   }
+  
   .formcontainer,
   .formFAQcontainer {
     width: 80%;
