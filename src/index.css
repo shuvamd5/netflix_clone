@@ -86,7 +86,7 @@ body {
 }
 
 .herotxtcontainer{
-  position: absolute;
+  position: relative;
   width: 100%;
   top: 40%;
 }
