@@ -13,7 +13,7 @@ const N1 = () => {
           />
         </div>
         <div className="signinbtn">
-          <button className="signin" disabled>Sign In</button>
+          <button className="signin">Sign In</button>
         </div>
       </nav>
     </header>
